@@ -14,10 +14,10 @@ const routes: Routes = [
     path: '',
     component: AppComponent
   },
-  {
+  /*{
     path: 'baner',
     component: BanerComponent
-  },
+  },*/
   {
     path: 'contact',
     component: ContactComponent

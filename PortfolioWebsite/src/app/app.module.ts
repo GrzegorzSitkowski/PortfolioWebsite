@@ -11,6 +11,8 @@ import { WorkExperienceComponent } from './Components/work-experience/work-exper
 import { ProjectsComponent } from './Components/projects/projects.component';
 import { BanerComponent } from './Components/baner/baner.component';
 import { TestComponent } from './test/test.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { ResponsiveDirective } from './directives/responsive.directive';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { TestComponent } from './test/test.component';
     WorkExperienceComponent,
     BanerComponent,
     ProjectsComponent,
-    TestComponent
+    TestComponent,
+    ResponsiveDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

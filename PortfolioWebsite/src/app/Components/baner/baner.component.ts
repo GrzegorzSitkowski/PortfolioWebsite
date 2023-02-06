@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BreakpointObserver } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-baner',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BanerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private breakpointObserve: BreakpointObserver) { }
 
   ngOnInit(): void {
   }

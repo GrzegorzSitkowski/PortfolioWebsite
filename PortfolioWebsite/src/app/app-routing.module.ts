@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 import { BanerComponent } from './Components/baner/baner.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { EducationComponent } from './Components/education/education.component';
@@ -9,6 +10,10 @@ import { SkillsComponent } from './Components/skills/skills.component';
 import { WorkExperienceComponent } from './Components/work-experience/work-experience.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    component: AppComponent
+  },
   {
     path: 'baner',
     component: BanerComponent

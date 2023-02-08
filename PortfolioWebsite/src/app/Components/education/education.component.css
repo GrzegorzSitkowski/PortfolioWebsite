@@ -1,0 +1,24 @@
+:host{
+    display: block;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+section{
+    margin-top: 2rem;
+    width: 600px;
+    position: relative;
+    margin-left: 5rem;
+    display: grid;
+    gap: 0 1.5rem;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+section h2{
+    color: var(--green);
+}
+
+section h4{
+    color: var(--gray-light);
+}

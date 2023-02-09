@@ -3,3 +3,10 @@ export interface Education{
     course: string;
     duration: string;
 }
+
+export interface WorkExpierience{
+    role: string;
+    company: string;
+    duration: string;
+    description: string[];
+}

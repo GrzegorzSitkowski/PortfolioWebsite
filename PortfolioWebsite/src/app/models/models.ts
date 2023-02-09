@@ -10,3 +10,8 @@ export interface WorkExpierience{
     duration: string;
     description: string[];
 }
+
+export interface Skill{
+    type: string;
+    name: string;
+}

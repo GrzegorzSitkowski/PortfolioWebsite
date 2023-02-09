@@ -3,7 +3,7 @@
     background-color: var(--black);
 }
 
-:host.pc .container{
+.container{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

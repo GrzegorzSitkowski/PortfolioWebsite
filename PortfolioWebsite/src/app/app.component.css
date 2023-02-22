@@ -7,3 +7,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.navbar-brand{
+    color: white;
+    margin-left: 10%;
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-brand:hover{
+    color: var(--green);
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-link:hover{
+    color: var(--green);
+}

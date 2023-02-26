@@ -10,13 +10,24 @@ export class WorkExperienceComponent implements OnInit {
 
   workExpList: WorkExpierience[] = [
     {
+      role: 'Senior Analyst',
+      company: 'Orange',
+      duration: 'Jun 2022 - Present',
+      description: [
+        'Invoicing of clients',
+        'Reporting bugs',
+        'Creating reports',
+        'Creating tools to optimize work(in C#/SQL)'
+      ],
+    },
+    {
       role: 'Analyst',
       company: 'Orange',
-      duration: 'Sep 2015 - Jul 2022',
+      duration: 'Mar 2017 - Jun 2022',
       description: [
-        'Invocing client',
-        'Report bugs',
-        'Fix bugs'
+        'Invoicing of clients',
+        'Reporting bugs',
+        'Creating reports'
       ],
     },
   ];

@@ -10,9 +10,9 @@ export class EducationComponent implements OnInit {
 
   educationList: Education[] = [
     {
-      school: 'Vana Vani School',
-      course: 'IT',
-      duration: '2007 - 2011',
+      school: 'Technical college',
+      course: 'Computer science',
+      duration: '09.2011 - 05.2015',
     }
   ];
 

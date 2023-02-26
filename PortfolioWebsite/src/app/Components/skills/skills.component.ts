@@ -10,16 +10,16 @@ export class SkillsComponent implements OnInit {
 
   skills: Skill[] = [
     {
-      type: 'Programming',
-      name: 'C#, Entity Framework, TypeScript, Angular'
+      type: 'Languages and Frameworks',
+      name: 'C#, SQL, .Net Framework, ASP.NET, Entity Framework, REST API, HTML, CSS, JavaScript, TypeScript, Angular, Bootstrap'
     },
     {
       type: 'Tools',
       name: 'Microsoft SQL Server, Visual Studio, Git'
     },
     {
-      type: 'Pratices',
-      name: 'Clean Architecture, Unit Tests, DDD, SOLID'
+      type: 'Techniques/Practices',
+      name: 'MVC, CQRS, XUnit, Unit Tests, Fluent Validation, MediatR, SOLID'
     }
   ]
   

@@ -12,7 +12,7 @@ export class EducationComponent implements OnInit {
     {
       school: 'Technical college',
       course: 'Computer science',
-      duration: '09.2011 - 05.2015',
+      duration: 'Sep 2011 - May 2015',
     }
   ];
 
